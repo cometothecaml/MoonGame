@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+<link rel="icon" type="image/x-icon"
+ href="ethereum.ico">
+ <title>The Button</title>
+
+</head> 
+<body>
+    <noscript>
+        <p>Please enable JavaScript to use this page!</p>
+      </noscript>
+    <h1 id = moonsincontract>MOONs in contract: </h1>
+    <h1 id = price>Price of next button press: </h1>
+    <h1 id = timeleft>Time left: </h1>
+    <h1 id =currentwinner>Current winner: </h1>
+    <button type=button id="con">CONNECT WALLET</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h4 id="status">Wallet not connected</h4>
+    <h4 id="balance">Your balance: </h4>
+    <button type=button id="reset">RESET TIMER</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button type=button id="claim">CLAIM WINNINGS</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3 id="txstatus"></h3>
+    <a href="/MoonGame/index.html">
+        Take me back to the previous page
+     </a>
+    
+
+    <style>
+       
+        h1{
+            color:white;
+            text-align:center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        h4{
+            color:white;
+            text-align:center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        a{
+            color:white;
+            text-align:center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            left:50%;
+            position:absolute;
+            -ms-transform: translateX(-50%);
+             transform: translateX(-50%);
+            
+        }
+        button{
+            font-size:50px;
+            left:50%;
+            position:absolute;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+
+            -ms-transform: translateX(-50%);
+             transform: translateX(-50%);
+        }
+        body {
+          background-color:#121212;
+        }
+        h3{
+            color:white;
+            text-align:center;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+       
+    </style>
+     <script src="main.js"></script>
+     <script src="web3.js"></script>
+</body>
+
+
+</html>
